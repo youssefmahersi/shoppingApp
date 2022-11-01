@@ -1,0 +1,115 @@
+.statistics {
+  padding: 3rem 0;
+  background: #FAFAFE;
+  width: 130%;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.statistics::-webkit-scrollbar {
+  width: 0;
+}
+
+.statistics .top {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.statistics .top .topItems {
+  width: 45%;
+}
+
+.statistics .top .topItems h1 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+
+.statistics .top .topItems .content {
+  margin-top: 38.50px;
+}
+
+.statistics .top .topItems .content .coll {
+  margin-bottom: 29px;
+}
+
+.statistics .top .topItems .content .coll .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statistics .top .topItems .content .coll .name h1 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.statistics .top .topItems .content .coll .name span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.statistics .top .topItems .content .coll .backLine {
+  background: #E0E0E0;
+  border-radius: 4px;
+  height: 6px;
+  width: 100%;
+  position: relative;
+  margin-top: 14.62px;
+}
+
+.statistics .top .topItems .content .coll .backLine .line {
+  position: absolute;
+  width: 37%;
+  height: 100%;
+  background: #F9A109;
+  border-radius: 4px;
+}
+
+.statistics .top .topItems .content .coll .backLine .l1 {
+  width: 30%;
+}
+
+.statistics .top .topItems .content .coll .backLine .l2 {
+  width: 25%;
+}
+
+.statistics .top .topCategories .backLine .lineC {
+  position: absolute;
+  width: 88%;
+  height: 100%;
+  background: #56CCF2;
+  border-radius: 4px;
+}
+
+.statistics .top .topCategories .backLine .c1 {
+  width: 57%;
+}
+
+.statistics .top .topCategories .backLine .c2 {
+  width: 27%;
+}
+
+.statistics .monthlySummary {
+  width: 80%;
+  margin: auto;
+  margin-top: 65px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.statistics .monthlySummary h1 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  text-align: left;
+}
+
+.statistics .monthlySummary img {
+  width: 768px;
+  height: 302px;
+  margin-top: 41.16px;
+}

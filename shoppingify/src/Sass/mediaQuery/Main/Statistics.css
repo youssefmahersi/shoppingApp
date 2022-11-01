@@ -1,0 +1,42 @@
+@media (max-width: 1017px) {
+  .statistics {
+    padding-left: 0;
+  }
+  .statistics .monthlySummary img {
+    width: 568px;
+  }
+}
+
+@media (max-width: 725px) {
+  .statistics .monthlySummary img {
+    width: 368px;
+    height: 202px;
+  }
+}
+
+@media (max-width: 565px) {
+  .statistics .top {
+    display: block;
+  }
+  .statistics .top .topItems {
+    width: 100%;
+  }
+  .statistics .monthlySummary img {
+    width: 268px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 377px) {
+  .statistics .top {
+    display: block;
+    width: 90%;
+  }
+  .statistics .monthlySummary {
+    width: 90%;
+  }
+  .statistics .monthlySummary img {
+    width: 268px;
+    height: 150px;
+  }
+}

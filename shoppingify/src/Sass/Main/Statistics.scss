@@ -1,0 +1,100 @@
+.statistics{
+    padding: 3rem 0;
+    background: #FAFAFE;
+    width: 130%;
+    overflow-y: scroll;
+    height: 100vh;
+    &::-webkit-scrollbar{
+        width: 0;
+    }
+    & .top{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        & .topItems{
+            width: 45%;
+            & h1{
+                font-weight: 500;
+                font-size: 24px;
+                color: #000;
+            }
+            & .content{
+                margin-top: 38.50px;
+                & .coll{
+                    margin-bottom: 29px;
+                    & .name{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        & h1{
+                            font-weight: 500;
+                            font-size: 14px;
+                        }
+                        & span{
+                            font-weight: 500;
+                            font-size: 18px;
+                        }
+                    }
+                    & .backLine{
+                        background: #E0E0E0;
+                        border-radius: 4px;
+                        height: 6px;
+                        width: 100%;
+                        position: relative;
+                        margin-top: 14.62px;
+                        & .line{
+                            position: absolute;
+                            width: 37%;
+                            height: 100%;
+                            background: #F9A109;
+                            border-radius: 4px;
+                        }
+                        & .l1{
+                            width: 30%;
+                        }
+                        & .l2{
+                            width: 25%;
+                        }
+                    }
+                }
+            }
+        }
+        & .topCategories{
+            & .backLine{
+                & .lineC{
+                    position: absolute;
+                    width: 88%;
+                    height: 100%;
+                    background: #56CCF2;
+                    border-radius: 4px;
+                }
+                & .c1{
+                    width: 57%;
+                }
+                & .c2{
+                    width: 27%;
+                }
+            }
+        }
+    }
+    & .monthlySummary{
+        width: 80%;
+        margin: auto;
+        margin-top: 65px;
+        text-align: center;
+        margin-bottom: 4rem;
+        & h1{
+            font-weight: 500;
+            font-size: 24px;
+            color: #000;
+            text-align: left;
+        }
+        & img{
+            width: 768px;
+            height: 302px;
+            margin-top: 41.16px;
+        }
+    }
+}

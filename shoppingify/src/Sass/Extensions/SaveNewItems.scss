@@ -1,0 +1,116 @@
+.saveNewItems{
+    background-color: #fff;
+    margin: 1rem 0;
+    height: 100vh;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        width: 0;
+    }
+    & .back{
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+        & span{
+            font-weight: 700;
+            font-size: 14px;
+            color: #F9A109;
+            cursor: pointer;
+        }
+        & span:last-child{
+            margin-top: -.3rem;
+        }
+    }
+    & .showImage{
+        width: 75%;
+        height: 250.69px;
+        margin: auto;
+        margin-top: 34px;
+        & img{
+            width: 100%;
+            height: 100%;
+            border-radius: 25px;
+        }
+    }
+    & form{
+        margin: auto;
+        margin-top: 54px;
+        width: 75%;
+        & .name{
+            margin-bottom: 1.7rem;
+            & label{
+                font-weight: 500;
+                font-size: 12px;
+                color: #C1C1C4;
+            }
+            & h1{
+                font-weight: 600;
+                font-size: 24px;
+                color: #000;
+            }
+        }
+        & .category{
+            margin-bottom: 1.7rem;
+            & label{
+                font-weight: 500;
+                font-size: 12px;
+                color: #C1C1C4;
+            }
+            & h1{
+                font-weight: 600;
+                font-size: 24px;
+                color: #000;
+            }
+        }
+        & .note{
+            // margin-bottom: 1.7rem;
+            & label{
+                font-weight: 500;
+                font-size: 12px;
+                color: #C1C1C4;
+            }
+            & p{
+                font-weight: 600;
+                font-size: 18px;
+                color: #000;
+                max-height: 180px;
+                height: 180px;
+                overflow-y: scroll;
+                &::-webkit-scrollbar{
+                    width: 6px;
+                }
+                &::-webkit-scrollbar-thumb{
+                    background-color: #F9A109;
+                    border-radius: 10px;
+                }
+            }
+        }
+        & .button{
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            & button{
+                margin: 0 20px;
+                cursor: pointer;
+            }
+            & button:first-child{
+                font-size: 16px;
+                line-height: 20px;
+                color: #34333A;
+                border: none;
+                background-color: transparent;
+                font-weight: 700;
+            }
+            & button:last-child{
+                background: #F9A109;
+                border-radius: 12px;
+                width: 123.82px;
+                height: 61.25px;
+                font-weight: 700;
+                font-size: 16px;
+                color: #FFFFFF;
+                border: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,391 @@
+.sliderRight {
+  background-color: #FFF0DE;
+  padding-top: 2rem;
+  width: 40rem;
+  height: 100vh;
+  position: relative;
+  animation: sliderRight .5s;
+}
+
+.sliderRight .addItem {
+  width: 72%;
+  margin: auto;
+  background: #80485B;
+  border-radius: 24px;
+  display: flex;
+  position: relative;
+  padding: 1rem;
+}
+
+.sliderRight .addItem .image {
+  position: absolute;
+  margin-top: -2.1rem;
+}
+
+.sliderRight .addItem .add {
+  margin-left: 7rem;
+  width: 65%;
+}
+
+.sliderRight .addItem .add h1 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.sliderRight .addItem .add button {
+  width: 120px;
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+  border: 3px solid #fff;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 14px;
+  transition: .3s;
+}
+
+.sliderRight .addItem .add button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.sliderRight .shoppingList {
+  width: 80%;
+  margin: 44px auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.sliderRight .shoppingList h1 {
+  font-size: 24px;
+  color: #34333A;
+}
+
+.sliderRight .shoppingList span {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.sliderRight .lists {
+  width: 80%;
+  margin: auto;
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+
+.sliderRight .lists::-webkit-scrollbar {
+  width: 1px;
+}
+
+.sliderRight .lists .list h1 {
+  font-size: 14px;
+  color: #828282;
+}
+
+.sliderRight .lists .list .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 34px 0;
+  height: 50px;
+}
+
+.sliderRight .lists .list .details .divCheckbox {
+  display: flex;
+  align-items: center;
+}
+
+.sliderRight .lists .list .details .checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #F9A109 2px solid;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+}
+
+.sliderRight .lists .list .details .checkbox input {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sliderRight .lists .list .details .checkbox input:hover {
+  content: url(/home/qandeeil/Private/Project-3/shoppingify/src/Sass/SliderRight/images/image.svg);
+  opacity: .7;
+  width: 16.76px;
+  height: 15.58px;
+}
+
+.sliderRight .lists .list .details .checkbox input::after {
+  content: url(/home/qandeeil/Private/Project-3/shoppingify/src/Sass/SliderRight/images/image.svg);
+  width: 18.76px;
+  height: 16.58px;
+  display: none;
+}
+
+.sliderRight .lists .list .details .checkbox input:checked::after {
+  display: block;
+}
+
+.sliderRight .lists .list .details h1 {
+  font-size: 18px;
+  color: #000;
+  margin-left: .7rem;
+}
+
+.sliderRight .lists .list .details .DL {
+  text-decoration: line-through;
+}
+
+.sliderRight .lists .list .details .pcs {
+  display: flex;
+}
+
+.sliderRight .lists .list .details .pcs .count {
+  border: 2px solid #F9A109;
+  border-radius: 24px;
+  font-size: 12px;
+  color: #F9A10A;
+  width: 68px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.sliderRight .lists .list .details .pcs .count:hover {
+  background-color: #F9A109;
+  color: #fff;
+}
+
+.sliderRight .lists .list .details .pcs .hover {
+  background: #FFFFFF;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+
+.sliderRight .lists .list .details .pcs .hover span {
+  cursor: pointer;
+}
+
+.sliderRight .lists .list .details .pcs .hover span:nth-of-type(1) {
+  background: #F9A109;
+  border: 2px solid #F9A109;
+  border-radius: 12px;
+  padding: 8.9px 10px;
+  display: flex;
+  color: #fff;
+  transition: .3s;
+}
+
+.sliderRight .lists .list .details .pcs .hover span:nth-of-type(1):hover {
+  color: #F9A109;
+  background-color: transparent;
+}
+
+.sliderRight .lists .list .details .pcs .hover span:nth-of-type(2), .sliderRight .lists .list .details .pcs .hover span:nth-of-type(3), .sliderRight .lists .list .details .pcs .hover span:nth-of-type(4) {
+  padding: 10.9px 10px;
+  display: flex;
+}
+
+.sliderRight .lists .list .details .pcs .hover span:nth-of-type(3) {
+  border: 2px solid #F9A109;
+  border-radius: 24px;
+  font-size: 12px;
+  color: #F9A10A;
+  font-weight: bold;
+  width: 68px;
+  height: 32px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.sliderRight .lists .list .details .pcs:hover .hover {
+  display: flex;
+  animation: move 1.5s;
+}
+
+.sliderRight .lists .list .details .pcs:hover .count {
+  display: none;
+}
+
+.sliderRight .lists .noItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sliderRight .lists .noItems h1 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #34333A;
+}
+
+.sliderRight .lists .noItems img {
+  position: absolute;
+  bottom: 0%;
+}
+
+.sliderRight .Tt {
+  background-color: #FFF0DE;
+  width: 100%;
+  position: absolute;
+  top: 90vh;
+  padding-top: 1rem;
+}
+
+.sliderRight .Tt .save {
+  border: 2px solid #F9A109;
+  border-radius: 12px;
+  width: 72%;
+  margin: auto;
+  height: 60.98px;
+  display: flex;
+}
+
+.sliderRight .Tt .save input {
+  font-size: 14px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 70%;
+  padding-left: 1rem;
+}
+
+.sliderRight .Tt .save button {
+  width: 30%;
+  background: #F9A109;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #F9A109;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.sliderRight .Tt .save button:hover {
+  background-color: transparent;
+  color: #F9A109;
+}
+
+.sliderRight .Tt .errorSave {
+  border: 2px solid red;
+  transition: .5s;
+}
+
+.sliderRight .Tt .errorSave .errorButton {
+  background: red;
+  border: 2px solid red;
+}
+
+.sliderRight .Tt .errorSave .errorButton:hover {
+  background-color: transparent;
+  color: red;
+}
+
+.sliderRight .Tt .errorSave input::-webkit-input-placeholder {
+  color: red;
+  opacity: .7;
+}
+
+.sliderRight .Tt .edit {
+  width: 72%;
+  margin: auto;
+  height: 60.98px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.sliderRight .Tt .edit button {
+  cursor: pointer;
+}
+
+.sliderRight .Tt .edit button:first-of-type {
+  width: 117.67px;
+  height: 58.44px;
+  background: #56CCF2;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border: 2px solid #56CCF2;
+  transition: .3s;
+}
+
+.sliderRight .Tt .edit button:first-of-type:hover {
+  background-color: transparent;
+  color: #56CCF2;
+}
+
+.sliderRight .Tt .edit button:last-of-type {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #34333A;
+  background-color: transparent;
+  width: 117.67px;
+  height: 58.44px;
+  border: none;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(10rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-1rem);
+    opacity: .5;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes sliderRight {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.through {
+  text-decoration: line-through;
+}
